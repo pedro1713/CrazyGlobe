@@ -27,8 +27,8 @@ void loop() {
     read_time = sensors[i].capacitiveSensor(10);
 
     if(read_time > 180){
-      touched = i + CONTROL_ID;
-      Serial.print(touched);
+      Serial.print(i);
+      touched = i;
       break;
     }
   }
