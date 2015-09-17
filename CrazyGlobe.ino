@@ -2,7 +2,7 @@
 
 const int CONTROL_ID = 0;
 
-CapacitiveSensor sensors[54];
+CapacitiveSensor sensors[54] = CapacitiveSensor(0,1);
 
 void setup() {
   // put your setup code here, to run once:
@@ -25,6 +25,10 @@ void loop() {
   
   for(i=0; i < 54; i++){
     read_time = sensors[i].capacitiveSensor(10);
+    //Uncomment following 3 lines for debug
+    Serial.print(i);
+    Serial.print("\t");
+    Serial.println(read_time);
 
     if(read_time > 180){
       touched = i + CONTROL_ID;
