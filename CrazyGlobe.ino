@@ -70,9 +70,6 @@ void loop() {
 
     read_time = cs_1.capacitiveSensor(10);
 
-    Serial.print("Sensor1:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 1 + CONTROL_ID;
       Serial.print(touched);
@@ -80,9 +77,6 @@ void loop() {
     }
 
     read_time = cs_2.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 2 + CONTROL_ID;
@@ -92,9 +86,6 @@ void loop() {
 
     read_time = cs_3.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 3 + CONTROL_ID;
       Serial.print(touched);
@@ -102,10 +93,7 @@ void loop() {
     }
 
     read_time = cs_4.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
+    
     if(read_time > 180){
       touched = 4 + CONTROL_ID;
       Serial.print(touched);
@@ -113,9 +101,6 @@ void loop() {
     }
 
     read_time = cs_5.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 5 + CONTROL_ID;
@@ -125,9 +110,6 @@ void loop() {
 
     read_time = cs_6.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 6 + CONTROL_ID;
       Serial.print(touched);
@@ -135,9 +117,6 @@ void loop() {
     }
 
     read_time = cs_7.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 7 + CONTROL_ID;
@@ -147,9 +126,6 @@ void loop() {
 
     read_time = cs_8.capacitiveSensor(10);
 
-    Serial.print("Sensor1:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 8 + CONTROL_ID;
       Serial.print(touched);
@@ -157,9 +133,6 @@ void loop() {
     }
 
     read_time = cs_9.capacitiveSensor(10);
-
-    Serial.print("Sensor1:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 9 + CONTROL_ID;
@@ -169,9 +142,6 @@ void loop() {
 
     read_time = cs_10.capacitiveSensor(10);
 
-    Serial.print("Sensor10:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 10 + CONTROL_ID;
       Serial.print(touched);
@@ -179,9 +149,6 @@ void loop() {
     }
     
     read_time = cs_11.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 11 + CONTROL_ID;
@@ -191,9 +158,6 @@ void loop() {
 
     read_time = cs_12.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 12 + CONTROL_ID;
       Serial.print(touched);
@@ -202,9 +166,6 @@ void loop() {
 
     read_time = cs_13.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 13 + CONTROL_ID;
       Serial.print(touched);
@@ -212,10 +173,7 @@ void loop() {
     }
 
     read_time = cs_14.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
+    
     if(read_time > 180){
       touched = 14 + CONTROL_ID;
       Serial.print(touched);
@@ -223,9 +181,6 @@ void loop() {
     }
 
     read_time = cs_15.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 15 + CONTROL_ID;
@@ -235,9 +190,6 @@ void loop() {
 
     read_time = cs_16.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 16 + CONTROL_ID;
       Serial.print(touched);
@@ -245,9 +197,6 @@ void loop() {
     }
     
     read_time = cs_17.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 17 + CONTROL_ID;
@@ -257,9 +206,6 @@ void loop() {
 
     read_time = cs_18.capacitiveSensor(10);
 
-    Serial.print("Sensor18:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 18 + CONTROL_ID;
       Serial.print(touched);
@@ -267,9 +213,6 @@ void loop() {
     }
         
     read_time = cs_19.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 19 + CONTROL_ID;
@@ -279,9 +222,6 @@ void loop() {
 
     read_time = cs_20.capacitiveSensor(10);
 
-    Serial.print("Sensor20:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 20 + CONTROL_ID;
       Serial.print(touched);
@@ -289,9 +229,6 @@ void loop() {
     }
 
     read_time = cs_21.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 21 + CONTROL_ID;
@@ -301,9 +238,6 @@ void loop() {
 
     read_time = cs_22.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 22 + CONTROL_ID;
       Serial.print(touched);
@@ -311,9 +245,6 @@ void loop() {
     }
 
     read_time = cs_23.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 23 + CONTROL_ID;
@@ -323,9 +254,6 @@ void loop() {
 
     read_time = cs_24.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 24 + CONTROL_ID;
       Serial.print(touched);
@@ -333,9 +261,6 @@ void loop() {
     }
     
     read_time = cs_25.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 25 + CONTROL_ID;
@@ -345,9 +270,6 @@ void loop() {
     
     read_time = cs_26.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 26 + CONTROL_ID;
       Serial.print(touched);
@@ -355,9 +277,6 @@ void loop() {
     }
 
     read_time = cs_27.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 27 + CONTROL_ID;
@@ -367,9 +286,6 @@ void loop() {
 
     read_time = cs_28.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 28 + CONTROL_ID;
       Serial.print(touched);
@@ -377,10 +293,7 @@ void loop() {
     }
     
     read_time = cs_29.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
+    
     if(read_time > 180){
       touched = 29 + CONTROL_ID;
       Serial.print(touched);
@@ -388,9 +301,6 @@ void loop() {
     }        
         
     read_time = cs_30.capacitiveSensor(10);
-
-    Serial.print("Sensor30:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 30 + CONTROL_ID;
@@ -400,9 +310,6 @@ void loop() {
 
     read_time = cs_31.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 31 + CONTROL_ID;
       Serial.print(touched);
@@ -410,9 +317,6 @@ void loop() {
     }
 
     read_time = cs_32.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 32 + CONTROL_ID;
@@ -422,9 +326,6 @@ void loop() {
 
     read_time = cs_33.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 33 + CONTROL_ID;
       Serial.print(touched);
@@ -432,9 +333,6 @@ void loop() {
     }
 
     read_time = cs_34.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 34 + CONTROL_ID;
@@ -444,9 +342,6 @@ void loop() {
     
     read_time = cs_35.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 35 + CONTROL_ID;
       Serial.print(touched);
@@ -454,9 +349,6 @@ void loop() {
     }    
     
     read_time = cs_36.capacitiveSensor(10);
-
-    Serial.print("Sensor36:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 36 + CONTROL_ID;
@@ -466,9 +358,6 @@ void loop() {
 
     read_time = cs_37.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 37 + CONTROL_ID;
       Serial.print(touched);
@@ -476,9 +365,6 @@ void loop() {
     }
 
     read_time = cs_38.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 38 + CONTROL_ID;
@@ -488,9 +374,6 @@ void loop() {
     
     read_time = cs_39.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 39 + CONTROL_ID;
       Serial.print(touched);
@@ -499,9 +382,6 @@ void loop() {
 
     read_time = cs_40.capacitiveSensor(10);
 
-    Serial.print("Sensor40:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 40 + CONTROL_ID;
       Serial.print(touched);
@@ -509,10 +389,7 @@ void loop() {
     }
 
     read_time = cs_41.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
+    
     if(read_time > 180){
       touched = 41 + CONTROL_ID;
       Serial.print(touched);
@@ -521,9 +398,6 @@ void loop() {
 
     read_time = cs_42.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 42 + CONTROL_ID;
       Serial.print(touched);
@@ -531,10 +405,7 @@ void loop() {
     }
 
     read_time = cs_43.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
+    
     if(read_time > 180){
       touched = 43 + CONTROL_ID;
       Serial.print(touched);
@@ -542,9 +413,6 @@ void loop() {
     }
 
     read_time = cs_44.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 44 + CONTROL_ID;
@@ -554,9 +422,6 @@ void loop() {
     
     read_time = cs_45.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 45 + CONTROL_ID;
       Serial.print(touched);
@@ -564,9 +429,6 @@ void loop() {
     }    
     
     read_time = cs_46.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 46 + CONTROL_ID;
@@ -576,9 +438,6 @@ void loop() {
 
     read_time = cs_47.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 47 + CONTROL_ID;
       Serial.print(touched);
@@ -586,9 +445,6 @@ void loop() {
     }
 
     read_time = cs_48.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 48 + CONTROL_ID;
@@ -598,9 +454,6 @@ void loop() {
 
     read_time = cs_49.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 49 + CONTROL_ID;
       Serial.print(touched);
@@ -608,9 +461,6 @@ void loop() {
     }
     
     read_time = cs_50.capacitiveSensor(10);
-
-    Serial.print("Sensor50:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 50 + CONTROL_ID;
@@ -620,9 +470,6 @@ void loop() {
         
     read_time = cs_51.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 51 + CONTROL_ID;
       Serial.print(touched);
@@ -630,9 +477,6 @@ void loop() {
     }
 
     read_time = cs_52.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 52 + CONTROL_ID;
@@ -642,9 +486,6 @@ void loop() {
 
     read_time = cs_53.capacitiveSensor(10);
 
-    Serial.print("Sensor:");
-    Serial.println(read_time);
-
     if(read_time > 180){
       touched = 53 + CONTROL_ID;
       Serial.print(touched);
@@ -652,10 +493,6 @@ void loop() {
     }
 
     read_time = cs_54.capacitiveSensor(10);
-
-    Serial.print("Sensor:");
-    
-    Serial.println(read_time);
 
     if(read_time > 180){
       touched = 54 + CONTROL_ID;
