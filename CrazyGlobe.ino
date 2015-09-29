@@ -132,6 +132,8 @@ for(index=0; index < 54; index++){
       	Serial.print(touched);
 	break;
     } 
-                                   
+}
+                             
   delay(5);
 }
+
