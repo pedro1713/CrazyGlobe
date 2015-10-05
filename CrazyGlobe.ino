@@ -1,65 +1,65 @@
 #include <CapacitiveSensor.h>
-const int CONTROL_ID = 1000;
+const int CONTROL_ID = 2000;
 const int SAMPLES = 5;
 const int THRESHOLD = 50;
 
-CapacitiveSensor   cs_1 = CapacitiveSensor(12,0);  
-CapacitiveSensor   cs_2 = CapacitiveSensor(12,1);   
-CapacitiveSensor   cs_3 = CapacitiveSensor(12,2);
-CapacitiveSensor   cs_4 = CapacitiveSensor(12,3);
-CapacitiveSensor   cs_5 = CapacitiveSensor(12,4);
-CapacitiveSensor   cs_6 = CapacitiveSensor(12,5);
-CapacitiveSensor   cs_7 = CapacitiveSensor(12,6);
-CapacitiveSensor   cs_8 = CapacitiveSensor(12,7);
-CapacitiveSensor   cs_9 = CapacitiveSensor(12,8);
-CapacitiveSensor   cs_10 = CapacitiveSensor(12,9);
-CapacitiveSensor   cs_11 = CapacitiveSensor(12,10);
-CapacitiveSensor   cs_12 = CapacitiveSensor(12,11);
-CapacitiveSensor   cs_13 = CapacitiveSensor(12,14);
-CapacitiveSensor   cs_14 = CapacitiveSensor(12,15);
-CapacitiveSensor   cs_15 = CapacitiveSensor(12,16);
-CapacitiveSensor   cs_16 = CapacitiveSensor(12,17);
-CapacitiveSensor   cs_17 = CapacitiveSensor(12,18);
-CapacitiveSensor   cs_18 = CapacitiveSensor(12,19);
+CapacitiveSensor   cs_1 = CapacitiveSensor(12,2);  
+CapacitiveSensor   cs_2 = CapacitiveSensor(12,3);   
+CapacitiveSensor   cs_3 = CapacitiveSensor(12,4);
+CapacitiveSensor   cs_4 = CapacitiveSensor(12,5);
+CapacitiveSensor   cs_5 = CapacitiveSensor(12,6);
+CapacitiveSensor   cs_6 = CapacitiveSensor(12,7);
+CapacitiveSensor   cs_7 = CapacitiveSensor(12,8);
+CapacitiveSensor   cs_8 = CapacitiveSensor(12,9);
+CapacitiveSensor   cs_9 = CapacitiveSensor(12,10);
+CapacitiveSensor   cs_10 = CapacitiveSensor(12,11);
+CapacitiveSensor   cs_11 = CapacitiveSensor(12,14);
+CapacitiveSensor   cs_12 = CapacitiveSensor(12,15);
+CapacitiveSensor   cs_13 = CapacitiveSensor(12,16);
+CapacitiveSensor   cs_14 = CapacitiveSensor(12,17);
+CapacitiveSensor   cs_15 = CapacitiveSensor(12,18);
+CapacitiveSensor   cs_16 = CapacitiveSensor(12,19);
+CapacitiveSensor   cs_17 = CapacitiveSensor(12,22);
+CapacitiveSensor   cs_18 = CapacitiveSensor(12,23);
 
-CapacitiveSensor   cs_19 = CapacitiveSensor(20,21);
-CapacitiveSensor   cs_20 = CapacitiveSensor(20,22);
-CapacitiveSensor   cs_21 = CapacitiveSensor(20,23);
-CapacitiveSensor   cs_22 = CapacitiveSensor(20,24);
-CapacitiveSensor   cs_23 = CapacitiveSensor(20,25);
-CapacitiveSensor   cs_24 = CapacitiveSensor(20,26);
-CapacitiveSensor   cs_25 = CapacitiveSensor(20,27);
-CapacitiveSensor   cs_26 = CapacitiveSensor(20,28);
-CapacitiveSensor   cs_27 = CapacitiveSensor(20,29);
-CapacitiveSensor   cs_28 = CapacitiveSensor(20,30);
-CapacitiveSensor   cs_29 = CapacitiveSensor(20,31);
-CapacitiveSensor   cs_30 = CapacitiveSensor(20,32);
-CapacitiveSensor   cs_31 = CapacitiveSensor(20,33);
-CapacitiveSensor   cs_32 = CapacitiveSensor(20,34);
-CapacitiveSensor   cs_33 = CapacitiveSensor(20,35);
-CapacitiveSensor   cs_34 = CapacitiveSensor(20,36);
-CapacitiveSensor   cs_35 = CapacitiveSensor(20,37);
-CapacitiveSensor   cs_36 = CapacitiveSensor(20,38);
-/*
-CapacitiveSensor   cs_37 = CapacitiveSensor(39,40);
-CapacitiveSensor   cs_38 = CapacitiveSensor(39,41);
-CapacitiveSensor   cs_39 = CapacitiveSensor(39,42);
-CapacitiveSensor   cs_40 = CapacitiveSensor(39,43);
-CapacitiveSensor   cs_41 = CapacitiveSensor(39,44);
-CapacitiveSensor   cs_42 = CapacitiveSensor(39,45);
-CapacitiveSensor   cs_43 = CapacitiveSensor(39,46);
-CapacitiveSensor   cs_44 = CapacitiveSensor(39,47);
-CapacitiveSensor   cs_45 = CapacitiveSensor(39,48);
-CapacitiveSensor   cs_46 = CapacitiveSensor(39,49);
-CapacitiveSensor   cs_47 = CapacitiveSensor(39,50);
-CapacitiveSensor   cs_48 = CapacitiveSensor(39,51);
-CapacitiveSensor   cs_49 = CapacitiveSensor(39,52);
-CapacitiveSensor   cs_50 = CapacitiveSensor(39,53);
-CapacitiveSensor   cs_51 = CapacitiveSensor(39,A15);
-CapacitiveSensor   cs_52 = CapacitiveSensor(39,A14);
-CapacitiveSensor   cs_53 = CapacitiveSensor(39,A13);
-CapacitiveSensor   cs_54 = CapacitiveSensor(39,A12);
-*/
+CapacitiveSensor   cs_19 = CapacitiveSensor(24,25);
+CapacitiveSensor   cs_20 = CapacitiveSensor(24,26);
+CapacitiveSensor   cs_21 = CapacitiveSensor(24,27);
+CapacitiveSensor   cs_22 = CapacitiveSensor(24,28);
+CapacitiveSensor   cs_23 = CapacitiveSensor(24,29);
+CapacitiveSensor   cs_24 = CapacitiveSensor(24,30);
+CapacitiveSensor   cs_25 = CapacitiveSensor(24,31);
+CapacitiveSensor   cs_26 = CapacitiveSensor(24,32);
+CapacitiveSensor   cs_27 = CapacitiveSensor(24,33);
+CapacitiveSensor   cs_28 = CapacitiveSensor(24,34);
+CapacitiveSensor   cs_29 = CapacitiveSensor(24,35);
+CapacitiveSensor   cs_30 = CapacitiveSensor(24,36);
+CapacitiveSensor   cs_31 = CapacitiveSensor(24,37);
+CapacitiveSensor   cs_32 = CapacitiveSensor(24,38);
+CapacitiveSensor   cs_33 = CapacitiveSensor(24,39);
+CapacitiveSensor   cs_34 = CapacitiveSensor(24,40);
+CapacitiveSensor   cs_35 = CapacitiveSensor(24,41);
+CapacitiveSensor   cs_36 = CapacitiveSensor(24,42);
+
+CapacitiveSensor   cs_37 = CapacitiveSensor(43,44);
+CapacitiveSensor   cs_38 = CapacitiveSensor(43,45);
+CapacitiveSensor   cs_39 = CapacitiveSensor(43,46);
+CapacitiveSensor   cs_40 = CapacitiveSensor(43,47);
+CapacitiveSensor   cs_41 = CapacitiveSensor(43,48);
+CapacitiveSensor   cs_42 = CapacitiveSensor(43,49);
+CapacitiveSensor   cs_43 = CapacitiveSensor(43,50);
+CapacitiveSensor   cs_44 = CapacitiveSensor(43,51);
+CapacitiveSensor   cs_45 = CapacitiveSensor(43,52);
+CapacitiveSensor   cs_46 = CapacitiveSensor(43,53);
+CapacitiveSensor   cs_47 = CapacitiveSensor(43,A15);
+CapacitiveSensor   cs_48 = CapacitiveSensor(43,A14);
+CapacitiveSensor   cs_49 = CapacitiveSensor(43,A13);
+CapacitiveSensor   cs_50 = CapacitiveSensor(43,A12);
+CapacitiveSensor   cs_51 = CapacitiveSensor(43,A11);
+CapacitiveSensor   cs_52 = CapacitiveSensor(43,A10);
+CapacitiveSensor   cs_53 = CapacitiveSensor(43,A9);
+CapacitiveSensor   cs_54 = CapacitiveSensor(43,A8);
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -111,7 +111,7 @@ void loop() {
     read_time[index++] = cs_34.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_35.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_36.capacitiveSensor(SAMPLES);
-    /*
+    
     read_time[index++] = cs_37.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_38.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_39.capacitiveSensor(SAMPLES);
@@ -130,10 +130,10 @@ void loop() {
     read_time[index++] = cs_52.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_53.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_54.capacitiveSensor(SAMPLES);
-*/
+
   finish = millis();
   Serial.println(finish-start);
-for(index=0; index < 36; index++){
+for(index=0; index < 54; index++){
     Serial.print(index);
     Serial.print("\t");
     Serial.println(read_time[index]);
