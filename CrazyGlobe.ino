@@ -1,7 +1,7 @@
 #include <CapacitiveSensor.h>
-const int CONTROL_ID = 2000;
+const int CONTROL_ID = 1000;
 const int SAMPLES = 5;
-const int THRESHOLD = 50;
+const int THRESHOLD = 100;
 
 CapacitiveSensor   cs_1 = CapacitiveSensor(12,2);  
 CapacitiveSensor   cs_2 = CapacitiveSensor(12,3);   
@@ -71,8 +71,8 @@ void loop() {
   int touched = -1;
   int index;
   long read_time[54];
-  unsigned long start,finish;
-    start = millis();
+  //unsigned long start,finish;
+    //start = millis();
     index = 0;
     read_time[index++] = cs_1.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_2.capacitiveSensor(SAMPLES);
@@ -131,15 +131,15 @@ void loop() {
     read_time[index++] = cs_53.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_54.capacitiveSensor(SAMPLES);
 
-  finish = millis();
-  Serial.println(finish-start);
+  //finish = millis();
+  //Serial.println(finish-start);
 for(index=0; index < 54; index++){
-    Serial.print(index);
-    Serial.print("\t");
-    Serial.println(read_time[index]);
+    //Serial.print(index);
+    //Serial.print("\t");
+    //Serial.println(read_time[index]);
     if(read_time[index] > THRESHOLD){
       	touched = 1 + index + CONTROL_ID;
-      	Serial.print(touched);
+      	Serial.println(touched);
 	      break;
     } 
 }
