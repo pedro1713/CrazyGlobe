@@ -63,7 +63,7 @@ CapacitiveSensor   cs_54 = CapacitiveSensor(43,A8);
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Starting up sensors");
+  //Serial.println("Starting up sensors");
 }
 
 void loop() {
@@ -144,6 +144,6 @@ for(index=0; index < 54; index++){
     } 
 }
                              
-  delay(5);
+  delay(25);
 }
 
