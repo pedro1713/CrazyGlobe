@@ -1,10 +1,10 @@
 #include <CapacitiveSensor.h>
 const int CONTROL_ID = 1000;
-const int SAMPLES = 5;
-const int THRESHOLD = 100;
+const int SAMPLES = 10;
+const int THRESHOLD = 125;
 
 CapacitiveSensor   cs_1 = CapacitiveSensor(12,2);  
-CapacitiveSensor   cs_2 = CapacitiveSensor(12,3);   
+/*CapacitiveSensor   cs_2 = CapacitiveSensor(12,3);   
 CapacitiveSensor   cs_3 = CapacitiveSensor(12,4);
 CapacitiveSensor   cs_4 = CapacitiveSensor(12,5);
 CapacitiveSensor   cs_5 = CapacitiveSensor(12,6);
@@ -20,9 +20,9 @@ CapacitiveSensor   cs_14 = CapacitiveSensor(12,17);
 CapacitiveSensor   cs_15 = CapacitiveSensor(12,18);
 CapacitiveSensor   cs_16 = CapacitiveSensor(12,19);
 CapacitiveSensor   cs_17 = CapacitiveSensor(12,22);
-CapacitiveSensor   cs_18 = CapacitiveSensor(12,23);
+CapacitiveSensor   cs_18 = CapacitiveSensor(12,23);*/
 
-CapacitiveSensor   cs_19 = CapacitiveSensor(24,25);
+CapacitiveSensor   cs_19 = CapacitiveSensor(24,25);/*
 CapacitiveSensor   cs_20 = CapacitiveSensor(24,26);
 CapacitiveSensor   cs_21 = CapacitiveSensor(24,27);
 CapacitiveSensor   cs_22 = CapacitiveSensor(24,28);
@@ -58,12 +58,12 @@ CapacitiveSensor   cs_50 = CapacitiveSensor(43,A12);
 CapacitiveSensor   cs_51 = CapacitiveSensor(43,A11);
 CapacitiveSensor   cs_52 = CapacitiveSensor(43,A10);
 CapacitiveSensor   cs_53 = CapacitiveSensor(43,A9);
-CapacitiveSensor   cs_54 = CapacitiveSensor(43,A8);
+CapacitiveSensor   cs_54 = CapacitiveSensor(43,A8);*/
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  //Serial.println("Starting up sensors");
+  Serial.println("Starting up sensors");
 }
 
 void loop() {
@@ -74,7 +74,7 @@ void loop() {
   //unsigned long start,finish;
     //start = millis();
     index = 0;
-    read_time[index++] = cs_1.capacitiveSensor(SAMPLES);
+    read_time[index++] = cs_1.capacitiveSensor(SAMPLES);/*
     read_time[index++] = cs_2.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_3.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_4.capacitiveSensor(SAMPLES);
@@ -91,9 +91,9 @@ void loop() {
     read_time[index++] = cs_15.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_16.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_17.capacitiveSensor(SAMPLES);
-    read_time[index++] = cs_18.capacitiveSensor(SAMPLES);
+    read_time[index++] = cs_18.capacitiveSensor(SAMPLES);*/
     
-    read_time[index++] = cs_19.capacitiveSensor(SAMPLES);
+    read_time[index++] = cs_19.capacitiveSensor(SAMPLES);/*
     read_time[index++] = cs_20.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_21.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_22.capacitiveSensor(SAMPLES);
@@ -129,7 +129,7 @@ void loop() {
     read_time[index++] = cs_51.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_52.capacitiveSensor(SAMPLES);
     read_time[index++] = cs_53.capacitiveSensor(SAMPLES);
-    read_time[index++] = cs_54.capacitiveSensor(SAMPLES);
+    read_time[index++] = cs_54.capacitiveSensor(SAMPLES);*/
 
   //finish = millis();
   //Serial.println(finish-start);
@@ -144,6 +144,6 @@ for(index=0; index < 54; index++){
     } 
 }
                              
-  delay(25);
+  delay(300);
 }
 
